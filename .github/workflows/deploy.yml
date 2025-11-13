@@ -5,7 +5,7 @@ on:
     branches:
       - main # main 브랜치에 push 시 동작
 
-job:
+jobs:
   send-webhook:
     runs-on: ubuntu-latest
 
